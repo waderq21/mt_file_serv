@@ -120,7 +120,7 @@ int main(int argc, char** argv){
 }
 
     ///////////////////////////////////
-    //For non threaded server/client
+    //For one threaded server/client
     ///////////////////////////////////
     // listen(sockfd, SOMAXCONN);
     // client_len = sizeof(client_hint);
